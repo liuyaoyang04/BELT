@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lrkv"
+version = "0.1.0"
+description = "Behavior-aligned low-rank KV cache compression (BELT) for Qwen3.8-27B with Hopper CuTe latent vLLM 0.32.0 runtime."
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.5.1",
+    "transformers>=5.9.0",
+    "tokenizers>=0.22.0",
+    "huggingface_hub>=1.29.0",
+    "safetensors>=0.7.0",
+    "accelerate>=1.13.0",
+    "sentencepiece>=0.2.0",
+    "pyarrow>=15.0.0",
+    "httpx>=0.27.0",
+    "numpy>=1.26.0",
+    "scipy>=1.13.0",
+    "tqdm>=4.66.0",
+    "psutil>=5.9.0",
+]
+
+[project.urls]
+Repository = "https://github.com/liuyaoyang04/BELT"
+Paper = "https://arxiv.org/abs/2610.17966"
+
+[tool.setuptools.packages.find]
+include = ["lrkv*"]
+

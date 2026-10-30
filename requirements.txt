@@ -1,0 +1,20 @@
+# Core pins for the LRKV compression & calibration environment (.venv, CUDA 12.1+).
+# Install via `bash scripts/setup_env.sh`.
+torch==2.5.1
+triton==3.1.0
+transformers==5.9.0
+tokenizers==0.22.2
+huggingface_hub==1.29.0
+safetensors==0.7.0
+accelerate==1.13.0
+flash-linear-attention==0.4.0
+fla-core==0.4.0
+numpy==1.26.4
+scipy==1.15.3
+pyarrow==25.0.1
+httpx==0.28.1
+sentencepiece==0.2.1
+tiktoken
+tqdm
+psutil
+setuptools           # triton's runtime imports it; uv venvs do not ship it

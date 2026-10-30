@@ -1,0 +1,86 @@
+[
+ {
+  "repo": "AI-MO/NuminaMath-1.5",
+  "revision": "1b05109f9e5c1ad06c0663519502416c30b300f8",
+  "file": "data/train-00000-of-00003.parquet",
+  "size": 195064200,
+  "sha256": "1e37cedcc5104c0d5a9afbf8b26328a59d7005cd37c2bd08352419f5f0e03214"
+ },
+ {
+  "repo": "AI-MO/NuminaMath-1.5",
+  "revision": "1b05109f9e5c1ad06c0663519502416c30b300f8",
+  "file": "data/train-00001-of-00003.parquet",
+  "size": 175917356,
+  "sha256": "bc48fdddc1ab4e559727ad4f1f03b0263785c1c16b7964fb885fba07e18d6a39"
+ },
+ {
+  "repo": "AI-MO/NuminaMath-1.5",
+  "revision": "1b05109f9e5c1ad06c0663519502416c30b300f8",
+  "file": "data/train-00002-of-00003.parquet",
+  "size": 160374171,
+  "sha256": "951aa899fe2a1b64f5b40c6636372d35b9db4f0b9c922e874d4bf357db64da66"
+ },
+ {
+  "repo": "m-a-p/SuperGPQA",
+  "revision": "4430d4458112c7d4497fdcf94d7cc223313d6acf",
+  "file": "SuperGPQA-all.jsonl",
+  "size": 23957124,
+  "sha256": "28b998e70205ee95e540317b5adc06a06552a3961fb50b153df126b833f7a910"
+ },
+ {
+  "repo": "TIGER-Lab/MMLU-Pro",
+  "revision": "b189ec765aa7ed75c8acfea42df31fdae71f97be",
+  "file": "data/test-00000-of-00001.parquet",
+  "size": 4144185,
+  "sha256": "0e24a191921c2f453518a537a8b2117bd137e7714d4ef1565e9ba06c1ecb9ad8"
+ },
+ {
+  "repo": "deepmind/code_contests",
+  "revision": "802411c3010cb00d1b05bad57ca77365a3c699d6",
+  "file": "data/train-00000-of-00039-e991a271dbfa9925.parquet",
+  "size": 180227735,
+  "sha256": "950bfdefde1f274edf93963e7e23c93ab16034de344aa7b7c32d14145e8d5232"
+ },
+ {
+  "repo": "deepmind/code_contests",
+  "revision": "802411c3010cb00d1b05bad57ca77365a3c699d6",
+  "file": "data/train-00001-of-00039-e092fe56fda18715.parquet",
+  "size": 208507780,
+  "sha256": "7bcc72d98a3d97f07be90ea70bf8db834c8f29ac2c7626d7cfc657bae6f5ddd9"
+ },
+ {
+  "repo": "deepmind/code_contests",
+  "revision": "802411c3010cb00d1b05bad57ca77365a3c699d6",
+  "file": "data/train-00002-of-00039-9cea23812e920e41.parquet",
+  "size": 226940997,
+  "sha256": "d67c9643019e632941b045f115c6bdf5925a4b32cd9f3fc991734970669b4a29"
+ },
+ {
+  "repo": "deepmind/code_contests",
+  "revision": "802411c3010cb00d1b05bad57ca77365a3c699d6",
+  "file": "data/train-00003-of-00039-e3822fccad6e083a.parquet",
+  "size": 180680623,
+  "sha256": "f4952386b2958bddb71ff6713b273b5425b1191084ef75923731b111bc20485f"
+ },
+ {
+  "repo": "allenai/tulu-3-sft-personas-instruction-following",
+  "revision": "fe0c7d350c9b4542b8d829a6f1daa1c259f0ba0e",
+  "file": "data/train-00000-of-00001.parquet",
+  "size": 39171921,
+  "sha256": "19a16c5f1649d367f69899b3cfadbbeb5ffef91f24e20c6617588bdd87cd3e60"
+ },
+ {
+  "repo": "allenai/WildChat-1M",
+  "revision": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+  "file": "data/train-00000-of-00014.parquet",
+  "size": 230786095,
+  "sha256": "abec2a13129db8c0e6a2d3a51ff12644873c748205a6fdf6551fbcb34430e51c"
+ },
+ {
+  "repo": "allenai/WildChat-1M",
+  "revision": "7d6490e462285cf85d91eabea0f9a954fbddcd1f",
+  "file": "data/train-00001-of-00014.parquet",
+  "size": 215399142,
+  "sha256": "f10fa35bb52703baad5e3177d3382d63b855fce9e9d1b9ab1fe2f0e762464f2a"
+ }
+]

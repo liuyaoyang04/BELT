@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vllm-lrkv"
+version = "0.1.0"
+description = "Out-of-tree vLLM 0.32.0 plugin for LRKV Hopper CuTe latent low-rank KV cache inference on Qwen3.8-27B."
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/liuyaoyang04/BELT"
+Paper = "https://arxiv.org/abs/2610.17966"
+
+[project.entry-points."vllm.general_plugins"]
+lrkv = "vllm_lrkv:register"
+
+[tool.setuptools.packages.find]
+include = ["vllm_lrkv*"]
+
