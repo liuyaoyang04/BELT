@@ -94,19 +94,20 @@ CUDA_VISIBLE_DEVICES=0 MAX_MODEL_LEN=32768 \
 ```python
 from vllm import LLM, SamplingParams
 
-llm = LLM(
-    model="models/qwen3_8_27b_c50_latent",
-    dtype="bfloat16",
-    language_model_only=True,
-    max_model_len=32768,
-    max_num_seqs=256,
-    gpu_memory_utilization=0.90,
-)
-outputs = llm.generate(
-    ["Explain how low-rank latent KV caches reduce memory bandwidth during decoding:"],
-    SamplingParams(temperature=0.0, max_tokens=256),
-)
-print(outputs[0].outputs[0].text)
+if __name__ == "__main__":
+    llm = LLM(
+        model="models/qwen3_8_27b_c50_latent",
+        dtype="bfloat16",
+        language_model_only=True,
+        max_model_len=32768,
+        max_num_seqs=256,
+        gpu_memory_utilization=0.90,
+    )
+    outputs = llm.generate(
+        ["Explain how low-rank latent KV caches reduce memory bandwidth during decoding:"],
+        SamplingParams(temperature=0.0, max_tokens=256),
+    )
+    print(outputs[0].outputs[0].text)
 ```
 
 #### Option C: Throughput & KV Cache Capacity Benchmark

@@ -89,7 +89,7 @@ for C in "${CONCS[@]}"; do
         --max-concurrency "${C}" \
         --request-rate inf \
         --ignore-eos \
-        --warmups 2 \
+        --num-warmups 2 \
         --percentile-metrics ttft,tpot,itl,e2el \
         --save-result \
         --result-filename "${RES}"
